@@ -19,6 +19,9 @@ namespace Dialogue
         // 每个对话节点的描述
         [TextArea] public string description;
         
+        [HideInInspector]public string guid;
+        [HideInInspector]public Vector2 position;
+        
         public Node OnUpdate()
         {
             if (!started)

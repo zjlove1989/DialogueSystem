@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Dialogue/Editor/UI/NodeEditor.uss?fileID=7433441132597879392&amp;guid=619e82de914a5fa47aecec4b73554cc5&amp;type=3#NodeEditor" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="LeftDiv" style="flex-grow: 0.3;">
+            <ui:Label tabindex="-1" text="Inspector" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Inspector" style="-unity-font-style: bold; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="RightDiv" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="NodeTreeViewer" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NodeTreeViewer" style="-unity-font-style: bold; color: rgb(255, 255, 255); font-size: 14px;" />
+            <NodeTreeViewer style="flex-grow: 1; flex-direction: column;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
