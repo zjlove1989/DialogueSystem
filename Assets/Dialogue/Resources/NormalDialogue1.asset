@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 1
   started: 0
-  children: []
-  description: "\u8FD9\u662F\u7B2C\u4E00\u53E5\u8BDD"
-  child: {fileID: 0}
-  dialogueContent: "\u8FD9\u662F\u7B2C\u4E00\u53E5\u8BDD"
+  description: "\u8FD9\u662F\u7B2C\u4E00\u53E5\u5BF9\u767D"
+  child: {fileID: 11400000, guid: 73a98e8d7fc3c324796d3d03f7726cca, type: 2}
+  dialogueContent: "\u8FD9\u662F\u7B2C\u4E00\u53E5\u5BF9\u767D"
