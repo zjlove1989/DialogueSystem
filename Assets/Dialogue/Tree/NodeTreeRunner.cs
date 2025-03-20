@@ -1,3 +1,4 @@
+using System;
 using TreeEditor;
 using UnityEngine;
 
@@ -5,7 +6,14 @@ namespace Dialogue
 {
     public class NodeTreeRunner : MonoBehaviour
     {
-        public NodeTree tree;
+        public DialogueTree tree;
+        public NormalDialogue rootNode;
+
+        private void Awake()
+        {
+            tree = tree.CreateRuntimeCopy();
+            tree.runningNode = rootNode.CreateRuntimeCopy();
+        }
 
         void Update()
         {

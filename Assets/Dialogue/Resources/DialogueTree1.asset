@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30b314c0498f48ecb64f44e67fb2f179, type: 3}
-  m_Name: RootDialogue
+  m_Script: {fileID: 11500000, guid: 4ed6d691401b427fb0638607772eab27, type: 3}
+  m_Name: DialogueTree1
   m_EditorClassIdentifier: 
-  state: 1
-  started: 1
-  description: "\u8FD9\u662F\u6839\u8282\u70B9"
-  child: {fileID: 0}
-  dialogueContent: "\u8FD9\u662F\u6839\u8282\u70B9"
+  runningNode: {fileID: 11400000, guid: 5397259eeded31f4f9d03b1bb643a2a0, type: 2}
+  treeState: 1
+  nodes: []

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +9,7 @@ namespace Dialogue
         public Node runningNode;
         public Node.State treeState = Node.State.Waiting;
         public List<Node> nodes = new List<Node>();
-
+        
         public virtual void Update()
         {
             if (treeState == Node.State.Running && runningNode.state == Node.State.Running)

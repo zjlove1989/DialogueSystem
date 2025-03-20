@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,10 +13,12 @@ namespace Dialogue
         }
 
         public State state = State.Waiting;
+
         public bool started = false;
+
         // 每个对话节点的描述
         [TextArea] public string description;
-
+        
         public Node OnUpdate()
         {
             if (!started)
