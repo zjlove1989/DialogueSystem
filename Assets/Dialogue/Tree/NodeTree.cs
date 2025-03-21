@@ -12,7 +12,7 @@ namespace Dialogue
     {
         public Node runningNode;
         public Node.State treeState = Node.State.Waiting;
-        public List<Node> nodes = new List<Node>();
+        [HideInInspector] public List<Node> nodes = new List<Node>();
 
         public virtual void Update()
         {

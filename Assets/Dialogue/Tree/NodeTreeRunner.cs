@@ -1,5 +1,3 @@
-using System;
-using TreeEditor;
 using UnityEngine;
 
 namespace Dialogue
@@ -11,8 +9,8 @@ namespace Dialogue
 
         private void Awake()
         {
-            tree = tree.CreateRuntimeCopy();
-            tree.runningNode = rootNode.CreateRuntimeCopy();
+            //tree = tree.CreateRuntimeCopy();
+            //tree.runningNode = rootNode.CreateRuntimeCopy();
         }
 
         void Update()
