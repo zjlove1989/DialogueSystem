@@ -37,6 +37,7 @@ namespace Dialogue
             inspectorViewer = root.Q<InspectorViewer>();
         }
 
+        
         private void OnSelectionChange()
         {
             // 检测该选中对象中是否存在节点树

@@ -7,12 +7,13 @@ namespace Dialogue
 {
     public class NodeTreeViewer : GraphView
     {
-        NodeTree tree;
-        public Action<NodeView> OnNodeSelected;
-
-        public new class UxmlFactory : UxmlFactory<NodeTreeViewer, GraphView.UxmlTraits>
+        public new class UxmlFactory : UxmlFactory<NodeTreeViewer, UxmlTraits>
         {
         }
+
+        public Action<NodeView> OnNodeSelected;
+
+        NodeTree tree;
 
         public NodeTreeViewer()
         {

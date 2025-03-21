@@ -3,6 +3,7 @@ using UnityEngine.UIElements;
 
 namespace Dialogue
 {
+    
     public class InspectorViewer : VisualElement
     {
         public new class UxmlFactory : UxmlFactory<InspectorViewer,VisualElement.UxmlTraits>{}
